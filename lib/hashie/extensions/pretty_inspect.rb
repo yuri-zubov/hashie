@@ -7,12 +7,11 @@ module Hashie
       end
 
       def hashie_inspect
-        ret = +"#<#{self.class}"
+        ret = "#<#{self.class}".dup
         keys.sort_by(&:to_s).each do |key|
-          ret << " #{key}=#{self[key].inspect}"
+          ret += " #{key}=#{self[key].inspect}"
         end
-        ret << '>'
-        ret
+        ret + '>'
       end
     end
   end
