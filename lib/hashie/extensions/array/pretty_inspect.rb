@@ -8,7 +8,7 @@ module Hashie
         end
 
         def hashie_inspect
-          ret = "#<#{self.class} ["
+          ret = +"#<#{self.class} ["
           ret << to_a.map(&:inspect).join(', ')
           ret << ']>'
           ret
