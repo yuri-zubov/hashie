@@ -7,7 +7,7 @@ module Hashie
       end
 
       def hashie_inspect
-        ret = "#<#{self.class}"
+        ret = +"#<#{self.class}"
         keys.sort_by(&:to_s).each do |key|
           ret << " #{key}=#{self[key].inspect}"
         end
