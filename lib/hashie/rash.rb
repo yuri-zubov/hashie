@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Hashie
   #
   # Rash is a Hash whose keys can be Regexps, or Ranges, which will

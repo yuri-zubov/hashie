@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Hashie
   module Extensions
     # SRP: This extension will fail an error whenever a key is accessed

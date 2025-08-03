@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Hashie
   module Extensions
     # MethodReader allows you to access keys of the hash

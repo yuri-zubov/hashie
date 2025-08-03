@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module RubyVersionCheck
   def with_minimum_ruby(version)
     yield if Hashie::Extensions::RubyVersion.new(RUBY_VERSION) >=

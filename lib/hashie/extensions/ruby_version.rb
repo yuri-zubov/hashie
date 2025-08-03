@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # Copyright (c) Chad Fowler, Rich Kilmer, Jim Weirich and others.
 # Portions copyright (c) Engine Yard and Andre Arko
 #

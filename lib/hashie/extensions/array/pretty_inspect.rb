@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Hashie
   module Extensions
     module Array
@@ -8,10 +9,9 @@ module Hashie
         end
 
         def hashie_inspect
-          ret = "#<#{self.class} ["
-          ret << to_a.map(&:inspect).join(', ')
-          ret << ']>'
-          ret
+          "#<#{self.class} [" \
+            "#{to_a.map(&:inspect).join(', ')}" \
+            "]>"
         end
       end
     end

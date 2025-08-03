@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Hashie
   module Extensions
     # Searches a deeply nested datastructure for a key path, and returns the associated value.

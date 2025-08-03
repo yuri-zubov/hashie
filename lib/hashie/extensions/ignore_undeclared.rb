@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Hashie
   module Extensions
     # IgnoreUndeclared is a simple mixin that silently ignores

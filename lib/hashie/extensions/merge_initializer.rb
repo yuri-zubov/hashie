@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Hashie
   module Extensions
     # The MergeInitializer is a super-simple mixin that allows

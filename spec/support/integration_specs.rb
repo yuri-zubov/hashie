@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require File.expand_path('../../../lib/hashie/extensions/ruby_version', __FILE__)
 
 # Generates the bundle command for running an integration test

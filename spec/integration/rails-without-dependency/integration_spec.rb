@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'rspec/core'
 
 RSpec.describe 'partial-rails' do

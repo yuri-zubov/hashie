@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # A shared context that allows you to check the output of Hashie's logger.
 #
 # @example

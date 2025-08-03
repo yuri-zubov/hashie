@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'hashie/extensions/stringify_keys'
 require 'hashie/extensions/pretty_inspect'
 
